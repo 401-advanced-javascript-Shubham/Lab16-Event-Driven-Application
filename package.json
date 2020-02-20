@@ -1,0 +1,21 @@
+{
+  "name": "lab16-event-driven-application",
+  "version": "1.0.0",
+  "description": "Event Driven Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test-watch": "jest --watchAll --verbose",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Shubham/Lab16-Event-Driven-Application.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Shubham/Lab16-Event-Driven-Application/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Shubham/Lab16-Event-Driven-Application#readme"
+}
