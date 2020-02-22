@@ -1,6 +1,13 @@
 'use strict';
 
 const fs = require('fs');
+const util = require('util');
+
+const events =  require('./events.js')
+require('./logger.js')
+
+const read = util.promisify(fs.readFile);
+const write = util.promisify(fs.writeFile);
 
 const alterFile = (file) => {
   fs.readFile( file, (err, data) => {
